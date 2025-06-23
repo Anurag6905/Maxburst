@@ -1,0 +1,126 @@
+body {
+  background: url('https://www.transparenttextures.com/patterns/stardust.png'), #121212;
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 56px 16px 40px 16px;
+  background: transparent;
+}
+
+.contact-info-header {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.contact-info-header h2 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.contact-info-header h2 span {
+  color: #00bfff;
+  background: linear-gradient(90deg, #fff 50%, #f4c402 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-info-header p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+.contact-info-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  margin: 0 auto 32px auto;
+  flex-wrap: wrap;
+}
+
+.contact-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 220px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.contact-info-icon {
+  width: 80px;
+  height: 80px;
+  background: #ebeeef;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px #0002;
+}
+.contact-info-icon img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.contact-info-label {
+  color: #92d7ee;
+  font-weight: 700;
+  font-size: 1.18rem;
+  margin-bottom: 6px;
+  display: block;
+  letter-spacing: 0.2px;
+}
+
+.contact-info-detail {
+  color: #fff;
+  font-size: 1.08rem;
+  margin-top: 2px;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.contact-info-extra {
+  padding: 2rem;
+  padding-top: 0;
+  text-align: center;
+  color: #ccc;
+  font-size: 1.07rem;
+}
+.contact-info-extra a {
+  color: #00bfff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.contact-info-extra a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-info-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+  .contact-info-item {
+    min-width: 0;
+    width: 100%;
+    max-width: 340px;
+  }
+  .contact-info-extra {
+    padding-top: 1rem;
+  }
+}
